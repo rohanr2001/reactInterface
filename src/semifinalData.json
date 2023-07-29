@@ -1,0 +1,22 @@
+{
+	"semifinals": [
+		{
+			"team1": "France",
+			"team2": "Belgium",
+			"result": {
+				"winner": "France",
+				"loser": "Belgium",
+				"score": "1-0"
+			}
+		},
+		{
+			"team1": "Croatia",
+			"team2": "England",
+			"result": {
+				"winner": "Croatia",
+				"loser": "England",
+				"score": "2-1 (after extra time)"
+			}
+		}
+	]
+}

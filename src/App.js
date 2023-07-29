@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import DynamicBoxes from "./components/DynamicBoxes";
+import TextEntry from "./components/TextEntry";
+import Quotes from "./components/Quotes";
+import Fifa18 from "./components/Fifa18";
+import "./components/style/App.css";
+export default function App() {
+	return (
+		<section>
+			<Quotes />
+			<Fifa18 />
+			<TextEntry />
+			<DynamicBoxes />
+		</section>
+	);
 }
-
-export default App;

@@ -1,0 +1,35 @@
+label {
+	font-size: 50px;
+	font-weight: bolder;
+}
+.DBox {
+	background: rgb(63, 94, 251);
+	background: radial-gradient(
+		circle,
+		rgba(63, 94, 251, 1) 0%,
+		rgba(252, 70, 107, 1) 100%
+	);
+	color: white;
+	margin: 50px;
+	padding: 10px;
+}
+#box-limit {
+	text-align: center;
+	border: none;
+	border-radius: 50px;
+	font-size: 30px;
+}
+.box-container {
+	margin: 5px 10px 0 10px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.box {
+	background: rgb(2, 0, 36);
+	padding: 2px;
+	margin: 2px;
+}

@@ -1,0 +1,40 @@
+.container {
+	display: flex;
+	width: 500px;
+	justify-content: space-between;
+	margin: 30px;
+	height: auto;
+}
+
+.green-box {
+	border: none;
+	background: rgb(135, 255, 125);
+	background: linear-gradient(
+		90deg,
+		rgba(135, 255, 125, 1) 0%,
+		rgba(70, 210, 130, 1) 56%,
+		rgba(58, 255, 2, 1) 100%
+	);
+	padding: 15px;
+	color: black;
+	border-radius: 50px;
+	font-size: 15px;
+	font-weight: bolder;
+}
+.green-box::placeholder {
+	color: black;
+}
+.blue-box {
+	width: 180px;
+	background: rgb(125, 217, 255);
+	background: linear-gradient(
+		90deg,
+		rgba(125, 217, 255, 1) 0%,
+		rgba(97, 137, 255, 1) 56%,
+		rgba(2, 80, 255, 1) 100%
+	);
+	border-radius: 50px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bolder;
+}

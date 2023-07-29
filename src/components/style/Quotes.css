@@ -1,0 +1,75 @@
+/* Quotes.css */
+body {
+	margin: 0;
+}
+.quote-container {
+	position: relative;
+	background-image: url("C:\Users\Rohan\Desktop\reactinterface\src\components\style\download.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 20px 0 20px 0;
+    width: 100%;
+}
+
+.quote-container h1 {
+	color: rgb(255, 255, 255);
+	font-size: 3rem;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+	.quote-container h1 {
+		font-size: 2rem;
+	}
+}
+span {
+	background-color: black;
+}
+button {
+	--color: #31ad0b;
+	font-family: inherit;
+	display: inline-block;
+	width: 8em;
+	height: 2.6em;
+	line-height: 2.5em;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid var(--color);
+	transition: color 0.5s;
+	z-index: 1;
+	font-size: 17px;
+	border-radius: 6px;
+	font-weight: 500;
+	color: var(--color);
+    margin: 20px;
+}
+
+button:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	background: var(--color);
+	height: 150px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+button:hover {
+	color: #fff;
+}
+
+button:before {
+	top: 100%;
+	left: 100%;
+	transition: all 0.7s;
+}
+
+button:hover:before {
+	top: -30px;
+	left: -30px;
+}
+
+button:active:before {
+	background: #37a30c;
+	transition: background 0s;
+}
